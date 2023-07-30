@@ -36,7 +36,6 @@ const Text = styled(Typography)`
 `;
 
 const Conversation = ({ user }) => {
-  console.log({ user });
   const { setPerson, account } = useContext(AccountContext);
 
   const getUser = async () => {

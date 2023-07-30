@@ -6,6 +6,8 @@ const AccountProvider = ({ children }) => {
   const [account, setAccount] = useState();
   const [person, setPerson] = useState();
 
+  console.log({ account });
+
   return (
     <AccountContext.Provider
       value={{
